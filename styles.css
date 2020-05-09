@@ -1,0 +1,89 @@
+html, body{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
+.body{
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.h{
+  font-size: 0.58rem;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  top: 17px;
+  min-width: 100vw;
+  height: 100px;
+}
+
+.lh{
+  font-size: 0.75rem;
+  display: inline-block;
+  margin-left: 160px;
+  position: absolute;
+  top: 45%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+h3{
+  display: inline-block;
+}
+
+.nav{
+  display: inline-block;
+  margin-left: 475px;
+  position: absolute;
+  top: 50%;
+}
+
+nav ul{
+  display: flex;
+}
+
+li{
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.cloud{
+  margin-right: 10px;
+}
+
+.rh{
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.us{
+  position: relative;
+  margin-left: 1000px;
+  top: 40%;
+}
+
+.tt{
+  margin-left: 5px;
+}
+
+.header-login{
+  margin-left: 90px;
+  background-color: transparent;
+  background-image: none;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 6px;
+  top: 38%;
+  position: absolute;
+  cursor: pointer;
+}
