@@ -6,9 +6,9 @@ html, body{
 .body{
   background-image: url(./images/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100vw;
-  min-height: 100vh;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
   color: #ffffff;
 }
 
@@ -85,5 +85,32 @@ li{
   border-radius: 6px;
   top: 38%;
   position: absolute;
+  cursor: pointer;
+}
+
+.center{
+  margin-top: 243px;
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+}
+
+p{
+  margin-bottom: 15px;
+}
+
+.sign-up{
+  width: 160px;
+  height: 50px;
+  border-radius: 6px;
+  color: #ED4C5C;
+  border: none;
+  margin-top: 40px;
   cursor: pointer;
 }
