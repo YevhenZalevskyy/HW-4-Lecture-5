@@ -10,6 +10,7 @@ html, body{
   width: 100vw;
   height: 100vh;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .h{
@@ -34,13 +35,16 @@ html, body{
 
 h3{
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .nav{
   display: inline-block;
-  margin-left: 475px;
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
 
 nav ul{
@@ -49,7 +53,11 @@ nav ul{
 
 li{
   margin-right: 15px;
-  cursor: pointer;
+}
+
+a{
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .cloud{
@@ -80,7 +88,8 @@ li{
   background-image: none;
   color: #ffffff;
   width: 100px;
-  height: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   border: 1px solid;
   border-radius: 6px;
   top: 38%;
@@ -99,6 +108,7 @@ h1{
   font-style: normal;
   letter-spacing: 0.05em;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 p{
@@ -107,7 +117,8 @@ p{
 
 .sign-up{
   width: 160px;
-  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 6px;
   color: #ED4C5C;
   border: none;
