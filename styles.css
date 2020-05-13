@@ -6,7 +6,7 @@ html, body{
 .body{
   background-image: url(./images/background.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   color: #ffffff;
@@ -17,20 +17,17 @@ html, body{
   font-size: 0.58rem;
   font-style: normal;
   font-weight: bold;
-  position: absolute;
-  top: 17px;
-  min-width: 100vw;
-  height: 100px;
+  padding-top: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 
 .lh{
   font-size: 0.75rem;
   display: inline-block;
-  margin-left: 160px;
-  position: absolute;
-  top: 45%;
-  padding-right: 10px;
   cursor: pointer;
+  padding-top: 0.3em;
 }
 
 h3{
@@ -39,25 +36,18 @@ h3{
 }
 
 .nav{
+  padding-top: 0.9em;
   display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-
-}
-
-nav ul{
-  display: flex;
-}
-
-li{
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 a{
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.o, .f, .t, .c{
+  margin-right: 15px;
 }
 
 .cloud{
@@ -66,16 +56,13 @@ a{
 
 .rh{
   display: inline-block;
-  position: absolute;
   margin-left: 10px;
-  top: 50%;
   cursor: pointer;
 }
 
 .us{
-  position: relative;
-  margin-left: 1000px;
-  top: 40%;
+margin-right: 10px;
+vertical-align: middle;
 }
 
 .tt{
@@ -83,7 +70,7 @@ a{
 }
 
 .header-login{
-  margin-left: 90px;
+  margin-left: 10px;
   background-color: transparent;
   background-image: none;
   color: #ffffff;
@@ -92,13 +79,11 @@ a{
   padding-bottom: 13px;
   border: 1px solid;
   border-radius: 6px;
-  top: 38%;
-  position: absolute;
   cursor: pointer;
 }
 
 .center{
-  margin-top: 243px;
+  margin-top: 11%;
   text-align: center;
 }
 
